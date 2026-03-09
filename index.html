@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <header>
+<h1>FlowHabits</h1>
+
+<nav>
+<button onclick="mostrarInicio()">Inicio</button>
+<button onclick="mostrarProgreso()">Progreso</button>
+<button onclick="mostrarMisHabitos()">Mis hábitos</button>
+</nav>
+</header>
+
+<main>
+
+<section id="inicio">
+<h2>Hábitos de hoy</h2>
+<div id="listaHabitos"></div>
+</section>
+
+<section id="progreso" class="oculto">
+<h2>Tu progreso</h2>
+<p id="contador">0 hábitos completados hoy</p>
+</section>
+
+<section id="misHabitos" class="oculto">
+<h2>Hábitos completados hoy</h2>
+<ul id="listaCompletados"></ul>
+</section>
+
+</main>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
